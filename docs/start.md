@@ -61,7 +61,7 @@ AI への頼み方（Claude Code の場合。ほかのツールでは AI に `AG
 
 ## スマホで読む
 
-PC で次を動かすと、同じ LAN のスマホのブラウザから `http://<PCのIP>:8000/` で `docs/` を読める。表示は [index.html](index.html)（docsify）が受け持つ。
+PC で次を動かすと、同じ LAN のスマホのブラウザから `http://<PCのIP>:8000/` で `docs/` を読める。表示は [index.html](index.html) が受け持つ（docsify 4.13.1 を CDN から読み、検索の部品を足しただけ。ビルドは無い）。選んだ理由と採らなかった案は [体制の進化ログ](process/evolution.md)「2026-11-01 スマホから docs を読めるようにする」にある。
 
 ```sh
 python -m http.server 8000 --bind 0.0.0.0 --directory docs
