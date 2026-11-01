@@ -22,6 +22,8 @@
 | `docs/playtests/` | 試遊の記録 | 記録 |
 | `docs/process/` | 設計の進め方・書き方・体制の進化ログ | 正 |
 | `docs/sources.md` | 前のリポジトリ（参考資料の在りか） | 参考 |
+| `docs/start.md` | 初めての人・間が空いた人が読む順と、AI との進め方の要点（道案内だけ） | 正 |
+| `docs/index.html`・`docs/_sidebar.md` | `docs/` をブラウザで読むビューア（docsify）と目次。動かし方は `docs/start.md`「スマホで読む」 | — |
 | `.claude/` | Claude Code 固有の設定。中身と決まりは `CLAUDE.md` に書く | — |
 
 書き分け（どこに何を書くか）は `docs/process/writing.md` が正。
