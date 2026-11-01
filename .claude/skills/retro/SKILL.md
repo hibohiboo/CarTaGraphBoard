@@ -5,13 +5,13 @@ description: フェーズの終わり、または人間に頼まれたときに�
 
 # ふりかえり
 
-手順の本文は `docs/process/index.md`「ふりかえり」「体制の進化」が正。ここは呼び出し口。
+手順の本文は `docs/process/cycle.md`「ふりかえり」と `docs/process/improve.md` が正。ここは呼び出し口。
 
 ## 進め方
 
 1. ふりかえりだけのサイクルとして、`docs/cycles/<日付>-C<番号>-<フェーズ名>のふりかえり.md` を作る。
 2. 1回の応答でまとめて読む：そのフェーズのサイクルの記録全部、`docs/index.md`、`docs/design/vision.md`、`docs/process/evolution.md` の候補。
-3. `wc -l docs/process/*.md` で進め方の文書の行数を確かめ、[体制の重さの上限](../../../docs/process/index.md#体制の重さの上限)を超えていないかを書く。
+3. `wc -l docs/process/*.md` で進め方の文書の行数を確かめ、[体制の重さの上限](../../../docs/process/improve.md#体制の重さの上限)を超えていないかを書く。
 4. KPT の下書きを作る。設計の中身（柱がぶれていないか、仮のものが残っていないか）と、進め方（重すぎないか・足りないか）を分けて書く。
 5. 進化ログの候補ごとに、採用／却下の推奨と理由を添えて人間に示す。決めるのは人間。
 6. 人間の裁定を `docs/process/evolution.md` に書き、採用したものを `docs/process/` と `.claude/skills/` に反映する。足したら、減らしたものも書く。

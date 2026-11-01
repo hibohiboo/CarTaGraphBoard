@@ -1,6 +1,9 @@
 # 前のリポジトリ
 
-カルタグラフのこれまでの試み。ここにあるものは**参考資料で、正ではない**。要るものは、フェーズ1でコンセプトの柱に照らして仕分け（採る／捨てる／保留）、決定（`docs/decisions/`）として取り込む。丸ごと書き写さない。
+> **3行で**
+> 1. カルタグラフのこれまでの試み（リポジトリ）の一覧。**参考資料で、正ではない**。
+> 2. 要るものは、フェーズ1で柱に照らして仕分け（採る／捨てる／保留）、決定（`docs/decisions/`）として取り込む。丸ごと書き写さない。
+> 3. 前の2つ（Fantasy・Adventure）から学んだことは [C0 下準備](cycles/2026-11-01-C0-下準備.md) のふりかえりにある。
 
 | リポジトリ | 時期 | 中身 | 見るとよいところ |
 |---|---|---|---|
@@ -10,5 +13,3 @@
 | [cartagraph-loop-city-trpg](https://github.com/hibohiboo/cartagraph-loop-city-trpg)（`../cartagraph-loop-city-trpg`） | 2023 | 前の世代の試み | 未確認 |
 | [kartagraph](https://github.com/hibohiboo/kartagraph)（`../kartagraph`） | 2023 | 前の世代の試み | 未確認 |
 | [evolving-todo](https://github.com/hibohiboo/evolving-todo)（`../evolving-todo`） | 2026-10 | 「体制の進化」の仕組みを組み込んだ TODO アプリのサンプル | 進め方の仕組みの見本 |
-
-前の2つ（Fantasy・Adventure）から何を学んだかは [C0 下準備](cycles/2026-11-01-C0-下準備.md) のふりかえりにある。
