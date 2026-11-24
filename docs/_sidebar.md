@@ -8,6 +8,7 @@
   - [体制の進化](/process/improve.md)
   - [AI との協働](/process/ai.md)
 - [サイクルの記録](/cycles/index.md)
+- [試遊](/playtests/index.md)
 - [問い](/questions.md)
 - [決定](/decisions/index.md)
 - [コンポーネント](/design/components.md)
